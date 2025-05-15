@@ -8,7 +8,7 @@ function Navbar() {
         display: 'flex',
         gap: '10px',
         marginBottom: '20px',
-        backgroundColor: '#536878',
+        backgroundColor: '#EFE9E0',
         padding: '10px'
       }}
     >
