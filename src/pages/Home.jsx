@@ -9,7 +9,7 @@ function Home() {
       .then(data => setData(data))
   }, [])
 
-  if (!data) return <div>dsds...</div>
+  if (!data) return <div>dsdsf...</div>
 
   return (
     <div>
