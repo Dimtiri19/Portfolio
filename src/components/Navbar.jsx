@@ -8,25 +8,25 @@ function Navbar() {
         display: 'flex',
         gap: '10px',
         marginBottom: '20px',
-        backgroundColor: '#EFE9E0',
+        backgroundColor: '#0F9E99',
         padding: '10px'
       }}
     >
       <Link
         to="/"
-        style={{ color: '#EAE0C8', textDecoration: 'none' }}
+        style={{ color: '#EFE9E0', textDecoration: 'none' }}
       >
         Accueil
       </Link>
       <Link
         to="/a-propos"
-        style={{ color: '#EAE0C8', textDecoration: 'none' }}
+        style={{ color: '#EFE9E0', textDecoration: 'none' }}
       >
         À propos
       </Link>
       <Link
         to="/contact"
-        style={{ color: '#EAE0C8', textDecoration: 'none' }}
+        style={{ color: '#EFE9E0', textDecoration: 'none' }}
       >
         Contact
       </Link>
