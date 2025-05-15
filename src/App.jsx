@@ -7,7 +7,7 @@ import Contact from './pages/Contact'
 
 function App() {
   return (
-    <div style={{ backgroundColor: '#EAE0C8', minHeight: '100vh' }}>
+    <div>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
