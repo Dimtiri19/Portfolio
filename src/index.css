@@ -10,6 +10,7 @@
 /* 2. Appliquer fond global */
 html, body {
   background-color: #EAE0C8;
+  color: #536878; 
   min-height: 100vh;
   font-family: sans-serif;
 }
