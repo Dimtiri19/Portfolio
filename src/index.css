@@ -15,3 +15,26 @@ html, body {
   font-family: 'Expletus Sans', sans-serif;
   font-weight: 500;
 }
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  gap: 10px;
+  padding: 10px 20px;
+  background-color: #0F9E99;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+  color: #EFE9E0;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.2s, color 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+  transform: scale(1.05);
+}
