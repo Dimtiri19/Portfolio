@@ -6,7 +6,7 @@ import imgTable from '../assets/table.png';
 function Preuve08() {
   return (
     <div style={{ padding: '2rem' }}>
-      <h1>Preuve 08</h1>
+      <h1>Preuves</h1>
 
       <div style={{ display: 'flex', alignItems: 'flex-start', gap: '2rem', marginTop: '1rem' }}>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>

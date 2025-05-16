@@ -4,7 +4,7 @@ import preuvePDF from '../assets/LateX.pdf';
 function Preuve04() {
   return (
     <div style={{ padding: '2rem' }}>
-      <h1>Preuve 04</h1>
+      <h1>Preuve</h1>
 
       <div style={{ display: 'flex', alignItems: 'flex-start', gap: '2rem', marginTop: '1rem' }}>
         <iframe

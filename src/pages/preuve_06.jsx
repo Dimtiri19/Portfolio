@@ -4,7 +4,7 @@ import preuveImg from '../assets/GMT.jpg';
 function Preuve06() {
   return (
     <div style={{ padding: '2rem' }}>
-      <h1>Preuve 01</h1>
+      <h1>Preuve</h1>
 
       <div style={{ display: 'flex', alignItems: 'flex-start', gap: '2rem', marginTop: '1rem' }}>
         <img

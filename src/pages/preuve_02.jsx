@@ -1,5 +1,5 @@
 import React from 'react';
-import preuveImg from '../assets/Hackaton23.jpg';
+import preuveImg from '../assets/hackaton23.jpg';
 
 function Preuve02() {
   return (
