@@ -74,3 +74,34 @@ html, body {
   color: #0F9E99;
   text-decoration: underline;
 }
+
+.select-style {
+  padding: 8px 12px;
+  border: 2px solid #0F9E99;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  color: #536878;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 1rem;
+  transition: all 0.3s ease;
+}
+
+.select-style:focus {
+  outline: none;
+  border-color: #0F9E99;
+  box-shadow: 0 0 5px rgba(15, 158, 153, 0.4);
+}
+
+.select-style {
+  border: 2px solid #0F9E99; /* ou #536878 selon ta couleur */
+  border-radius: 6px;
+  padding: 8px;
+  font-weight: bold;
+  background-color: #f9f9f9;
+  color: #536878;
+  appearance: none; /* supprime le style par défaut (optionnel) */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+}

@@ -1,19 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
 function About() {
+  const [sortBy, setSortBy] = useState(''); // par défaut pas de tri
+
   const items = [
     { nom: 'Hakathon', annee: '2022-2023', reel: '48H', valide: '10H', preuve: 'preuve_01', type: 'activité' },
     { nom: 'Hakathon', annee: '2023-2024', reel: '48H', valide: '10H', preuve: 'preuve_02', type: 'activité' },
     { nom: 'CSCB', annee: '2023-2024', reel: '48H', valide: '10H', preuve: 'preuve_03', type: 'activité' },
     { nom: 'LateX', annee: '2024-2025', reel: '6H', valide: '6H', preuve: 'preuve_04', type: 'formation' },
     { nom: 'Axentys', annee: '2024-2025', reel: '2H', valide: '2H', preuve: 'preuve_05', type: 'conférence' },
-    { nom: 'GMT', annee: '2024-2025', reel: '5H', valide: '8H', preuve: 'preuve_06', type: 'formation' },
+    { nom: 'GMT', annee: '2023-2024', reel: '5H', valide: '8H', preuve: 'preuve_06', type: 'formation' },
     { nom: 'VM Essential', annee: '2024-2025', reel: '5H', valide: '5H', preuve: 'preuve_07', type: 'conférence' },
     { nom: 'OpenClassroom Java', annee: '2024-2025', reel: '10H', valide: '10H', preuve: 'preuve_08', type: 'formation' },
-    { nom: 'OpenClassroom Angular', annee: '2024-2025', reel: '10H', valide: '10H', preuve: 'preuve_09', type: 'formation'}
+    { nom: 'OpenClassroom Angular', annee: '2024-2025', reel: '10H', valide: '10H', preuve: 'preuve_09', type: 'formation' }
   ];
+
+  const sortItems = [...items].sort((a, b) => {
+    if (sortBy === 'annee') return a.annee.localeCompare(b.annee);
+    if (sortBy === 'reel') return parseInt(b.reel) - parseInt(a.reel);
+    if (sortBy === 'type') return a.type.localeCompare(b.type);
+    return 0;
+  });
 
   return (
     <motion.div
@@ -27,7 +36,23 @@ function About() {
         <h1>Portfolio</h1>
         <p>Voici un récapitulatif de mes heures de participation à divers projets et formations :</p>
 
-        <table className="styled-table">
+        {/* Select pour le tri */}
+        <label htmlFor="sort" style={{ marginRight: '10px', fontWeight: 'bold' }}>
+          Trier par :
+        </label>
+        <select
+          id="sort"
+          onChange={e => setSortBy(e.target.value)}
+          className="select-style"
+        >
+          <option value="">-- Aucun tri --</option>
+          <option value="annee">Année</option>
+          <option value="nom">Nom</option>
+          <option value="reel">Heures réelles</option>
+          <option value="type">Type</option>
+        </select>
+
+        <table className="styled-table" style={{ marginTop: '20px' }}>
           <thead>
             <tr>
               <th>Nom</th>
@@ -38,7 +63,7 @@ function About() {
             </tr>
           </thead>
           <tbody>
-            {items.map((item, i) => (
+            {sortItems.map((item, i) => (
               <tr key={i}>
                 <td>
                   <Link to={`/${item.preuve}`} className="preuve-link">
