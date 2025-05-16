@@ -12,6 +12,7 @@ import Preuve05 from './pages/preuve_05'
 import Preuve06 from './pages/preuve_06'
 import Preuve07 from './pages/preuve_07'
 import Preuve08 from './pages/preuve_08'
+import Preuve09 from './pages/preuve_09'
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="/preuve_06" element={<Preuve06 />} />
         <Route path="/preuve_07" element={<Preuve07 />} />
         <Route path="/preuve_08" element={<Preuve08 />} />
+        <Route path="/preuve_09" element={<Preuve09 />} />
       </Routes>
     </div>
   )

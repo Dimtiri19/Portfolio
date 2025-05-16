@@ -12,6 +12,7 @@ function About() {
     { nom: 'GMT', annee: '2024', reel: '5H', valide: '8H', preuve: 'preuve_06', type: 'formation' },
     { nom: 'VM Essential', annee: '2024', reel: '5H', valide: '5H', preuve: 'preuve_07', type: 'conférence' },
     { nom: 'OpenClassroom Java', annee: '2024', reel: '10H', valide: '10H', preuve: 'preuve_08', type: 'formation' },
+    { nom: 'OpenClassroom Angular', annee: '2024', reel: '10H', valide: '10H', preuve: 'preuve_09', type: 'formation'}
   ];
 
   return (
@@ -51,7 +52,7 @@ function About() {
               </tr>
             ))}
             <tr style={{ fontWeight: 'bold' }}>
-              <td>Total</td><td>—</td><td>172H</td><td>61H</td><td>—</td>
+              <td>Total</td><td>—</td><td>172H</td><td>71H</td><td>—</td>
             </tr>
           </tbody>
         </table>
