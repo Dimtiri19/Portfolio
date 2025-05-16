@@ -1,8 +1,16 @@
 import React from 'react';
 import preuvePDF from '../assets/Axentys.pdf';
+import { motion } from 'framer-motion';   
 
 function Preuve04() {
   return (
+    <motion.div
+      style={{ padding: '2rem', position: 'relative', minHeight: '100vh' }}
+      initial={{ opacity: 0, y: 30 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -30 }}
+      transition={{ duration: 0.5, ease: 'easeOut' }}
+    >
     <div style={{ padding: '2rem' }}>
       <h1>Preuve</h1>
 
@@ -26,6 +34,7 @@ function Preuve04() {
         </div>
       </div>
     </div>
+  </motion.div>
   );
 }
 
