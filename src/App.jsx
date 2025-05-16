@@ -1,6 +1,7 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 import Home from './pages/Home'
 import About from './pages/Portfolio'
 import Contact from './pages/Contact'
@@ -32,6 +33,7 @@ function App() {
         <Route path="/preuve_08" element={<Preuve08 />} />
         <Route path="/preuve_09" element={<Preuve09 />} />
       </Routes>
+      <Footer />
     </div>
   )
 }
