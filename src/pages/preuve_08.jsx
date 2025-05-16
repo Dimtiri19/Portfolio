@@ -36,7 +36,7 @@ function Preuve08() {
             src={imgCours}
             alt="Cours"
             style={{
-              maxWidth: '300px',
+              maxWidth: '600px',
               borderRadius: '8px',
               boxShadow: '0 4px 10px rgba(0,0,0,0.1)'
             }}
@@ -45,7 +45,7 @@ function Preuve08() {
             src={imgFin}
             alt="Fin"
             style={{
-              maxWidth: '300px',
+              maxWidth: '600px',
               borderRadius: '8px',
               boxShadow: '0 4px 10px rgba(0,0,0,0.1)'
             }}
@@ -54,7 +54,7 @@ function Preuve08() {
             src={imgTable}
             alt="Table"
             style={{
-              maxWidth: '300px',
+              maxWidth: '600px',
               borderRadius: '8px',
               boxShadow: '0 4px 10px rgba(0,0,0,0.1)'
             }}
