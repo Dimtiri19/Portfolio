@@ -33,7 +33,7 @@ function Preuve04() {
           src={preuvePDF}
           title="Preuve PDF"
           width="50%"
-          height="600px"
+          height="1000px"
           style={{
             border: 'none',
             boxShadow: '0 4px 10px rgba(0,0,0,0.1)',
