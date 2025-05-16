@@ -38,3 +38,39 @@ html, body {
   color: #ffffff;
   transform: scale(1.05);
 }
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: #fff;
+  color: #536878;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.styled-table th,
+.styled-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.styled-table th {
+  background-color: #0F9E99;
+  color: #EFE9E0;
+}
+
+.styled-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.preuve-link {
+  color: #536878;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.preuve-link:hover {
+  color: #0F9E99;
+  text-decoration: underline;
+}
