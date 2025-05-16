@@ -4,15 +4,15 @@ import { motion } from 'framer-motion';
 
 function About() {
   const items = [
-    { nom: 'Hakathon', annee: '2022', reel: '48H', valide: '10H', preuve: 'preuve_01', type: 'activité' },
-    { nom: 'Hakathon', annee: '2023', reel: '48H', valide: '10H', preuve: 'preuve_02', type: 'activité' },
-    { nom: 'CSCB', annee: '2024', reel: '48H', valide: '10H', preuve: 'preuve_03', type: 'activité' },
-    { nom: 'LateX', annee: '2024', reel: '6H', valide: '6H', preuve: 'preuve_04', type: 'formation' },
-    { nom: 'Axentys', annee: '2024', reel: '2H', valide: '2H', preuve: 'preuve_05', type: 'conférence' },
-    { nom: 'GMT', annee: '2024', reel: '5H', valide: '8H', preuve: 'preuve_06', type: 'formation' },
-    { nom: 'VM Essential', annee: '2024', reel: '5H', valide: '5H', preuve: 'preuve_07', type: 'conférence' },
-    { nom: 'OpenClassroom Java', annee: '2024', reel: '10H', valide: '10H', preuve: 'preuve_08', type: 'formation' },
-    { nom: 'OpenClassroom Angular', annee: '2024', reel: '10H', valide: '10H', preuve: 'preuve_09', type: 'formation'}
+    { nom: 'Hakathon', annee: '2022-2023', reel: '48H', valide: '10H', preuve: 'preuve_01', type: 'activité' },
+    { nom: 'Hakathon', annee: '2023-2024', reel: '48H', valide: '10H', preuve: 'preuve_02', type: 'activité' },
+    { nom: 'CSCB', annee: '2023-2024', reel: '48H', valide: '10H', preuve: 'preuve_03', type: 'activité' },
+    { nom: 'LateX', annee: '2024-2025', reel: '6H', valide: '6H', preuve: 'preuve_04', type: 'formation' },
+    { nom: 'Axentys', annee: '2024-2025', reel: '2H', valide: '2H', preuve: 'preuve_05', type: 'conférence' },
+    { nom: 'GMT', annee: '2024-2025', reel: '5H', valide: '8H', preuve: 'preuve_06', type: 'formation' },
+    { nom: 'VM Essential', annee: '2024-2025', reel: '5H', valide: '5H', preuve: 'preuve_07', type: 'conférence' },
+    { nom: 'OpenClassroom Java', annee: '2024-2025', reel: '10H', valide: '10H', preuve: 'preuve_08', type: 'formation' },
+    { nom: 'OpenClassroom Angular', annee: '2024-2025', reel: '10H', valide: '10H', preuve: 'preuve_09', type: 'formation'}
   ];
 
   return (
@@ -52,7 +52,7 @@ function About() {
               </tr>
             ))}
             <tr style={{ fontWeight: 'bold' }}>
-              <td>Total</td><td>—</td><td>172H</td><td>71H</td><td>—</td>
+              <td>Total</td><td>—</td><td>182H</td><td>71H</td><td>—</td>
             </tr>
           </tbody>
         </table>
