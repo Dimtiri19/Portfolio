@@ -11,7 +11,7 @@ function About() {
     { nom: 'Axentys', annee: '2024', reel: '2H', valide: '2H', preuve: 'preuve_05', type: 'conférence' },
     { nom: 'GMT', annee: '2024', reel: '5H', valide: '8H', preuve: 'preuve_06', type: 'formation' },
     { nom: 'VM Essential', annee: '2024', reel: '5H', valide: '5H', preuve: 'preuve_07', type: 'conférence' },
-    { nom: 'OpenClassroom', annee: '2024', reel: '10H', valide: '10H', preuve: 'preuve_08', type: 'formation' },
+    { nom: 'OpenClassroom Java', annee: '2024', reel: '10H', valide: '10H', preuve: 'preuve_08', type: 'formation' },
   ];
 
   return (
