@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import { useState } from 'react';
 import maPhoto from '../assets/me.jpg';
-import monCV from '../assets/cv.pdf';
 import pinguin from '../assets/pinguin.gif';
 
 function Home() {
@@ -54,7 +53,7 @@ function Home() {
 
       <h2>Télécharger mon CV</h2>
       <a
-        href={monCV}
+        href="/cv.pdf"
         download="Dimitri-Meeus-CV.pdf"
         onMouseEnter={() => setHover(true)}
         onMouseLeave={() => setHover(false)}
