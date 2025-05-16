@@ -1,7 +1,8 @@
 import React from 'react';
 import imgCours from '../assets/vme.png';
 import imgFin from '../assets/vme2.jpg';
-import { motion } from 'framer-motion';   
+import { motion } from 'framer-motion';
+import clippy from '../assets/clippy.gif';   
 
 function Preuve07() {
   return (
@@ -12,6 +13,19 @@ function Preuve07() {
       exit={{ opacity: 0, y: -30 }}
       transition={{ duration: 0.5, ease: 'easeOut' }}
     >
+      {/* CLIPPY EN BAS À DROITE */}
+      <img
+        src={clippy}
+        alt="Clippy"
+        style={{
+          position: 'absolute',
+          bottom: '40px',
+          right: '60px',
+          width: '100px',
+          height: 'auto',
+        }}
+      />
+      
     <div style={{ padding: '2rem' }}>
       <h1>Preuves</h1>
 

@@ -3,7 +3,8 @@ import imgCours from '../assets/cscb.png';
 import imgFin from '../assets/cscb1.png';
 import csc from '../assets/CSC.png';
 import csc2 from '../assets/CSC2.png';
- import { motion } from 'framer-motion';   
+import { motion } from 'framer-motion';
+import clippy from '../assets/clippy.gif';   
 
 function Preuve03() {
   return (
@@ -14,6 +15,19 @@ function Preuve03() {
       exit={{ opacity: 0, y: -30 }}
       transition={{ duration: 0.5, ease: 'easeOut' }}
     >
+      {/* CLIPPY EN BAS À DROITE */}
+      <img
+        src={clippy}
+        alt="Clippy"
+        style={{
+          position: 'absolute',
+          bottom: '40px',
+          right: '60px',
+          width: '100px',
+          height: 'auto',
+        }}
+      />
+      
     <div style={{ padding: '2rem' }}>
       <h1>Preuves</h1>
 
