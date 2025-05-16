@@ -1,5 +1,5 @@
 import React from 'react';
-import preuveImg from '../assets/GMT.jpg';
+import preuveImg from '../assets/gmt.jpg';
 
 function Preuve06() {
   return (
