@@ -1,5 +1,5 @@
 import React from 'react';
-import imgCours from '../assets/ang2.png';
+import imgCours from '../assets/ang3.png';
 import imgFin from '../assets/tab2.png';
 import imgTable from '../assets/tab3.png';
 import { motion } from 'framer-motion';
