@@ -4,8 +4,8 @@ import { motion } from 'framer-motion';
 
 function About() {
   const items = [
-    { nom: 'Akaton', annee: '2022', reel: '48H', valide: '10H', preuve: 'preuve_01', type: 'activité' },
-    { nom: 'Akaton', annee: '2023', reel: '48H', valide: '10H', preuve: 'preuve_02', type: 'activité' },
+    { nom: 'Hakathon', annee: '2022', reel: '48H', valide: '10H', preuve: 'preuve_01', type: 'activité' },
+    { nom: 'Hakathon', annee: '2023', reel: '48H', valide: '10H', preuve: 'preuve_02', type: 'activité' },
     { nom: 'CSCB', annee: '2024', reel: '48H', valide: '10H', preuve: 'preuve_03', type: 'activité' },
     { nom: 'LateX', annee: '2024', reel: '6H', valide: '6H', preuve: 'preuve_04', type: 'formation' },
     { nom: 'Axentys', annee: '2024', reel: '2H', valide: '2H', preuve: 'preuve_05', type: 'conférence' },
