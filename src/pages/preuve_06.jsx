@@ -1,8 +1,16 @@
 import React from 'react';
 import preuveImg from '../assets/gmt.jpg';
+ import { motion } from 'framer-motion';   
 
 function Preuve06() {
   return (
+    <motion.div
+      style={{ padding: '2rem', position: 'relative', minHeight: '100vh' }}
+      initial={{ opacity: 0, y: 30 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: -30 }}
+      transition={{ duration: 0.5, ease: 'easeOut' }}
+    >
     <div style={{ padding: '2rem' }}>
       <h1>Preuve</h1>
 
@@ -28,6 +36,7 @@ function Preuve06() {
         </div>
       </div>
     </div>
+  </motion.div>
   );
 }
 
