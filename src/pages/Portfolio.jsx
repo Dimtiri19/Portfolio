@@ -11,7 +11,7 @@ function About() {
     { nom: 'CSCB', annee: '2023-2024', reel: '48H', valide: '10H', preuve: 'preuve_03', type: 'activité' },
     { nom: 'LateX', annee: '2024-2025', reel: '6H', valide: '6H', preuve: 'preuve_04', type: 'formation' },
     { nom: 'Axentys', annee: '2024-2025', reel: '2H', valide: '2H', preuve: 'preuve_05', type: 'conférence' },
-    { nom: 'GMT', annee: '2023-2024', reel: '5H', valide: '8H', preuve: 'preuve_06', type: 'formation' },
+    { nom: 'GMT', annee: '2023-2024', reel: '8H', valide: '8H', preuve: 'preuve_06', type: 'formation' },
     { nom: 'VM Essential', annee: '2024-2025', reel: '5H', valide: '5H', preuve: 'preuve_07', type: 'conférence' },
     { nom: 'OpenClassroom Java', annee: '2024-2025', reel: '10H', valide: '10H', preuve: 'preuve_08', type: 'formation' },
     { nom: 'OpenClassroom Angular', annee: '2024-2025', reel: '10H', valide: '10H', preuve: 'preuve_09', type: 'formation' }

@@ -42,7 +42,7 @@ function Preuve06() {
 
         <div style={{ flex: 1 }}>
           <p>
-          J'ai eu l'occasion de passer une journée type d'un employé dans la société GMT (9H-18H).<br />
+          J'ai eu l'occasion de passer une journée type d'un employé dans la société GMT (9H-17H).<br />
           Dont une visite chez un potentiel client (une école) pour voir toute l'infrastructure à mettre en place pour qu'il y ait le wifi.<br />
           J'ai eu l'occasion de voir comment se déroule le monde professionnel et les différentes contraintes d'un tel projet.
 
