@@ -77,7 +77,7 @@ function About() {
               </tr>
             ))}
             <tr style={{ fontWeight: 'bold' }}>
-              <td>Total</td><td>—</td><td>182H</td><td>71H</td><td>—</td>
+              <td>Total</td><td>—</td><td>185H</td><td>71H</td><td>—</td>
             </tr>
           </tbody>
         </table>
