@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import About from './pages/Portfolio'
 import Contact from './pages/Contact'
 import CuVi from './pages/cv'
+import TFE from './pages/TFE'
 import Preuve01 from './pages/preuve_01'
 import Preuve02 from './pages/preuve_02'
 import Preuve03 from './pages/preuve_03'
@@ -25,6 +26,7 @@ function App() {
         <Route path="/Portfolio" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/CV" element={<CuVi />} />
+        <Route path="/TFE" element={<TFE />} />
         <Route path="/preuve_01" element={<Preuve01 />} />
         <Route path="/preuve_02" element={<Preuve02 />} />
         <Route path="/preuve_03" element={<Preuve03 />} />
