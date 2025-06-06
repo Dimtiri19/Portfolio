@@ -37,8 +37,8 @@ function Preuve04() {
         <iframe
           src={preuvePDF}
           title="Preuve PDF"
-          width="100%"
-          height="1200px"
+          width="80%"
+          height="1000px"
           style={{
             border: 'none',
             boxShadow: '0 4px 10px rgba(0,0,0,0.1)',

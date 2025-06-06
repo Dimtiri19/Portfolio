@@ -15,7 +15,7 @@ function TFE() {
     <div style={{ padding: '2rem' }}>
       <h1>Travail de Fin d'Étude</h1>
 
-      <div style={{ display: 'flex', alignItems: 'flex-start', gap: '2rem', marginTop: '1rem' }}>
+      <div style={{ overflow: 'auto', width: '100%', maxHeight: '80vh' }}>
         <iframe
           src={preuvePDF}
           title="Preuve PDF"
@@ -23,11 +23,12 @@ function TFE() {
           height="1200px"
           style={{
             border: 'none',
-            boxShadow: '0 4px 10px rgba(0,0,0,0.1)',
-            borderRadius: '8px'
+            minHeight: '80vh',
+            pointerEvents: 'auto'
           }}
         />
       </div>
+
     </div>
   </motion.div>
   );
