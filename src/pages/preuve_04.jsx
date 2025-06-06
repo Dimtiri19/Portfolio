@@ -28,11 +28,16 @@ function Preuve04() {
     <div style={{ padding: '2rem' }}>
       <h1>Preuve</h1>
 
+        <p>
+          J'ai participé au séminaire proposé par madame Guérit, me permettant de découvrir une nouvelle technologie pour rendre mes rapports plus esthétiques.<br />
+          Cela m'a été très utile pour la rédaction de mon TFE afin d'avoir un document propre et bien organisé à rendre.
+        </p>
+
       <div style={{ display: 'flex', alignItems: 'flex-start', gap: '2rem', marginTop: '1rem' }}>
         <iframe
           src={preuvePDF}
           title="Preuve PDF"
-          width="50%"
+          width="100%"
           height="1200px"
           style={{
             border: 'none',
@@ -40,14 +45,6 @@ function Preuve04() {
             borderRadius: '8px'
           }}
         />
-
-        <div style={{ flex: 1 }}>
-          <p>
-          J'ai participé au séminaire proposé par madame Guérit, me permettant de découvrir une nouvelle technologie pour rendre mes rapports plus esthétiques.<br />
-          Cela m'a été très utile pour la rédaction de mon TFE afin d'avoir un document propre et bien organisé à rendre.
-
-          </p>
-        </div>
       </div>
     </div>
   </motion.div>

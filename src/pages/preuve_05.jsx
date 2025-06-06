@@ -27,12 +27,14 @@ function Preuve04() {
       
     <div style={{ padding: '2rem' }}>
       <h1>Preuve</h1>
-
+        <p>
+          Ce document prouve ma présence à la conférence donnée par Axentys à l’EPHEC sur tous les outils Azure Microsoft.<br />
+        </p>
       <div style={{ display: 'flex', alignItems: 'flex-start', gap: '2rem', marginTop: '1rem' }}>
         <iframe
           src={preuvePDF}
           title="Preuve PDF"
-          width="50%"
+          width="100%"
           height="1200px"
           style={{
             border: 'none',
@@ -40,12 +42,6 @@ function Preuve04() {
             borderRadius: '8px'
           }}
         />
-
-        <div style={{ flex: 1 }}>
-          <p>
-          Ce document prouve ma présence à la conférence donnée par Axentys à l’EPHEC sur tous les outils Azure Microsoft.<br />
-          </p>
-        </div>
       </div>
     </div>
   </motion.div>
