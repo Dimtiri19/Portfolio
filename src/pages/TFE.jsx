@@ -21,6 +21,8 @@ function TFE() {
           title="Preuve PDF"
           width="100%"
           height="1200px"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
           style={{
             border: 'none',
             minHeight: '80vh',
